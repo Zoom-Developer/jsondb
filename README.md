@@ -20,11 +20,12 @@ nick = data["nick"]
 print("Hello, %s" % nick)
 ```
 
+    *First start*
 ```
 >>> Enter your nickname: ZoomDeveloper
 Hello, ZoomDeveloper
 ```
-*Restart script*
+    *Restart script*
 ```
 Hello, ZoomDeveloper
 ```
