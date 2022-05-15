@@ -1,6 +1,11 @@
 <h1>JSON DB</h1>
 <h3>Simple python local database</h3>
 
+***Install:***
+```
+pip install jsondbpy
+```
+
 ***Quick start:***
 
 ```python
