@@ -13,7 +13,7 @@ from jsondb import Manager
 
 manager = Manager("database.test")
 data = manager.get()
-if "nick" not in data: 
+if not data.get("nick"): 
     data["nick"] = input("Enter your nickname: ")
     manager.save()
 nick = data["nick"]
@@ -24,6 +24,7 @@ print("Hello, %s" % nick)
 >>> Enter your nickname: ZoomDeveloper
 Hello, ZoomDeveloper
 ```
+*Restart script*
 ```
 Hello, ZoomDeveloper
 ```
