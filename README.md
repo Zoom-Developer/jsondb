@@ -19,7 +19,7 @@ if not data.get("nick"):
 nick = data["nick"]
 print("Hello, %s" % nick)
 ```
-
+```
     First start
 ```
 >>> Enter your nickname: ZoomDeveloper
